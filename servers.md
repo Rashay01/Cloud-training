@@ -166,3 +166,69 @@ less traffic -> number of machines should decrease --> descaling
 We create a auto scaling group in what conditions the new machines will be created . E.g. When the CPU utilisation gooes more than 50%. Thenn you will add a new machine to be created.
 
 To do tis you create a snapchot --> custom image --> launch templates (define the type of machine with what I would create) --> create autoscaling group (if cpu is more than 50% then automatically new machine will be created)
+
+Craete a launch template under instances:
+1. create launch template click
+    - give name e.g. akshat-template
+    - click my AMIs 
+2. when to launch new machine - Autoscaling group
+    - give name e.g. launch-autoscaling 
+
+
+Loadbalinging - 3 types
+
+Scaling 
+- minimun desired level
+- max desigred desired level
+
+Autoscaling in what senarious when it should be scaling
+no scaling policies - wont upgrade
+tracking opertions when your cPU or others go above a certain percentage add another machine
+Only configure one metric 
+
+![Cloud computing](./images/Autoscaling.png "Cloud computing image notes")
+![Cloud computing](./images/Autoscaling-1.png "Cloud computing image notes")
+
+### Simple notification service
+- we can send a notification mail or sms in case the new machine is created or removed - lives in sns
+
+[Auto scaling notes](https://drive.google.com/file/d/1xczXRbspXKYUx1APtJW-SW03pa-dC5mL/view?usp=sharing)
+
+
+## Load balancer
+Balences the load between the machines 
+
+performance issues when one server is running at max
+
+Types:
+1. Application
+    - works on the 7th layer of OSI model
+    - works on the Http level
+    - e.g Ecommece    
+2. Network balancer
+    - works at layer 4 which is transport layer
+    - works at TCP/IP levle
+    - Distributes millions of requests at a time
+    - e.g Netflix
+3. Gateway load balancer
+    - Third party IOT tools
+
+loadbalencer does health checks on the pcs and checks on the machines so that it wont send things to machines with 
+
+![Cloud computing](./images/OSI%20Model.png "Cloud computing image notes")
+![Cloud computing](./images/loadbalancer.png "Cloud computing image notes")
+
+### Application load balancer 
+
+![Cloud computing](./images/Application%20loadbalancer.png "Cloud computing image notes")
+
+## Network Loadbalancer
+No thinking can cater for millions of requests 
+![Cloud computing](./images/Network%20load%20balancers.png "Cloud computing image notes")
+
+
+
+Sercuirty group must be the same as the machines security group
+
+[Note balancing lab](https://drive.google.com/file/d/1-18poyZl3RlMBPIP7qcmbfeMpJ8JPPQ0/view?usp=sharing)
+
