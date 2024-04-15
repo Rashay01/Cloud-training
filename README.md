@@ -1,6 +1,6 @@
 # Devops-training
 
-Initally was faterfall
+Initally was waterfall
 
 This was fixed by Agile methdolgy
 
@@ -77,3 +77,5 @@ Reegions in aws --> It is a geographical area where Aws Resources are hosted. Wa
 Availity Zone in AWS --> comproises of one or more data centers with on powers with own Infrastructure.
 
 Golabal imnfrastructure: AWS --> Regions -- Avaliblty zone 
+
+![Cloud computing](./images/AWS.png "Cloud computing image notes")
