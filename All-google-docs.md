@@ -1,0 +1,1 @@
+[All Notes written notes](https://docs.google.com/document/d/1ZIvkJD2Tww5P5615aV24FOH6QSabEePI/edit)
