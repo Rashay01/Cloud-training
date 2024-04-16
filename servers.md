@@ -19,7 +19,7 @@ Which is a complete machine which is running
 - AMI-ID is the operating system ID
 - Instansce style - type of machine being launched, vCPU, RAM size - t2.micro
 - Key pair - Key to access the machine - If lost you will loose access of machine
-    - Public key will be downloaded in the laptop
+    - Private key will be downloaded in the laptop
     - another key will in the server
     - when trying to connect will validation with the key to connect to the server. Validation 
     - i.e my-key-123
