@@ -52,6 +52,62 @@ S3 bucket:
 3. When s3 bucket is public + object is public then one can access the object 
 
 S3 bucket --> Bucket policy - to make bucket public/private
-object --> Access control list -> make the object private or public
+
+
+object --> Access control list (ACL) -> make the object private or public
 
 ![Cloud computing](./images/Storage/Policies.png "Cloud computing image notes")
+
+
+ACLs It is permision given to object - recommeded to keep it private 
+If a person by mistake tries 
+
+Make ACLs - Enabled
+
+Block all public acess - make it private
+
+## Bucket Versioning
+- keeping the objects as a version to avoid accidental deletion or override
+
+![Cloud computing](./images/Storage/Bucket%20versioning.png "Cloud computing image notes")
+
+[Creating a bucket](https://drive.google.com/file/d/1i3KSLGnnLFPoogxl9tkpiAp_F1_AObz3/view?usp=sharing)
+
+## Versionaing 
+When evere you accedentially dele or update the file then the previous version of te file is saved as version
+
+If i delete the tab then the file is restored 
+if one deltes the image and tab then it is gone forever 
+
+
+## Cross Region Replication (CRR)
+
+Problem from two regions of work there is a delay which is the problem.
+You can creat a anoter bucket and in realtime connectivity that gets updated in realtime. You have a failsafe if something is deleted in one bucket
+
+One bucket becomes source and another becomes destination
+
+
+- This is a metod by which we can replicate content of one bucket in another bucket which is present in same/different region
+
+![Cloud computing](./images/Storage/CRR.png "Cloud computing image notes")
+
+Create a replication rule - To work with replication we need to enable versionin for source and destinaton
+
+RTC it reduces tme to replicate the object - reuires data chages added up.
+
+
+[CRR notes](https://drive.google.com/file/d/1_lHGpv_0HbmyrAkkgSuN-3nRi1LUwsZZ/view?usp=drive_link)
+
+### S3 bucket
+can host a static website on S3 Bucket
+- The website which does not have any database 
+
+Client cannot have EC2 -> due to high hourly/min/sec
+
+Can host it on S3 it will be cheaper.
+
+## costs
+5gb is free
+
+It cost per read and write
