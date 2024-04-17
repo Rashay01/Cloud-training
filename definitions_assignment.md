@@ -1,4 +1,4 @@
-#Easy (1 hour 30 mins)
+# Easy (1 hour 30 mins)
 1) launch ubuntu ec2
 2) launch a hello world website in the machine
 3) Attach a elastic ip and stop and restart the machine to check if ip address is changing

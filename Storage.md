@@ -111,3 +111,23 @@ Can host it on S3 it will be cheaper.
 5gb is free
 
 It cost per read and write
+
+[Creating a RDP with windows](https://url.za.m.mimecastprotect.com/s/0vR_CVm2Xkul0NYRBcGWX4k?domain=drive.google.com)
+
+
+## Dynamodb
+- Collection of data items
+- stores data instance 
+- also has a primary key
+- Structure (Schema) of dynomdb is not fixed
+- one table so manage so eaier to manage
+
+We need to give the permission to acces dynmodb via IAM(Identity Access Management) Roles 
+
+We will give the EC2 the permission to access dynomodb on behalf
+
+
+- Read Capacity unit (RCV)
+    - No of data we read per min from dyanmodb
+- Write capacity unit (WCU)
+    - No of data we write with dynmo db    
