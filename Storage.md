@@ -131,3 +131,6 @@ We will give the EC2 the permission to access dynomodb on behalf
     - No of data we read per min from dyanmodb
 - Write capacity unit (WCU)
     - No of data we write with dynmo db    
+
+
+[Create a dynamo db](https://docs.google.com/document/d/12C0auVZlRouX4_yQJRNkn2HquZBpMKQq/edit?usp=drive_link&ouid=103157204066713600014&rtpof=true&sd=true)
