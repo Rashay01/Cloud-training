@@ -76,3 +76,31 @@ It will allow you to access Internet from the private subnets
 - Very secure
 
 ![Cloud computing](./images/VPC/NAT-1.png "Cloud computing image notes")
+
+Creating a VPC:
+- give name
+- 20.0.0.0/16 
+- no ipv6
+
+- Default - if you are not using any resource it will be allocated to someone else 
+- dedicate - only for you -very costly 
+
+
+Creating Subnets:
+- 20.0.1.0/24
+- Resourses that will be created in the subnet will have resourses with IP 20.0.1
+- create subnet
+
+Create Internet Gateway
+- My-igw 
+- Create Internet Gateway
+- Attach to VPC
+
+Create Route table:
+- Public 
+    - route table 1 
+    - create route tabel
+
+Go to subnet and assiacte it to the route
+
+[Create a VCP](https://docs.google.com/document/d/1z_5GNybOP12GhzdgXuCr3gMTdx1HT5zW/edit?usp=sharing&ouid=103157204066713600014&rtpof=true&sd=true)
