@@ -114,6 +114,7 @@ It cost per read and write
 
 [Creating a RDP with windows](https://url.za.m.mimecastprotect.com/s/0vR_CVm2Xkul0NYRBcGWX4k?domain=drive.google.com)
 
+[Creating a RDP with windows](https://drive.google.com/file/d/1QvhQkwfRSotsNpBLZvySNv9QIWhYpoOH/view)
 
 ## Dynamodb
 - Collection of data items
