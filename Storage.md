@@ -135,3 +135,17 @@ We will give the EC2 the permission to access dynomodb on behalf
 
 
 [Create a dynamo db](https://docs.google.com/document/d/12C0auVZlRouX4_yQJRNkn2HquZBpMKQq/edit?usp=drive_link&ouid=103157204066713600014&rtpof=true&sd=true)
+
+
+## Connect RDP to Linex
+
+connect to linex:
+- sudo su
+- yum install -y mariadb105-server
+- systemctl enable mariadb
+- systemctl start mariadb
+- mysql -h \<YOUR RDS instance endpoint> -P 3306 -u \<USERNAME of your RDS
+Instance> -p
+-  Enter password when prompted
+
+[RDP to linux 2](https://drive.google.com/file/d/1OMgFxcqBQyxkeJGs4VRtiEQEwoq5DGem/view)
